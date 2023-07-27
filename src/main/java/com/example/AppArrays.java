@@ -28,16 +28,10 @@ public class AppArrays {
         System.out.println(Arrays.toString(vetor3));
 
         double matriz[][] = { {10,20,30}, {40,50,60} };
-
-
-
-
-
-
-
-
-
-
+        matriz[0][1] = -20;
+        matriz[1] = new double[]{70,80};
+        System.out.println(Arrays.toString(matriz[0]));
+        System.out.println(Arrays.toString(matriz[1]));
 
     }
 }
